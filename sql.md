@@ -11,7 +11,7 @@ Este é um guia de estudos completo para SQL, inspirado nas necessidades do merc
 ## 🚀 Nível Júnior: A Base Obrigatória
 *Se não dominar isso, não sai do lugar. O foco é extrair informações do banco de dados com segurança e precisão.*
 
-### 1. Fundamentos do Banco de Dados Relacional
+### 1. [Fundamentos do Banco de Dados Relacional](sql_fundamentos_bd.md)
 - O que é um banco de dados relacional?
 - Conceitos de Tabelas, Linhas (Registros) e Colunas (Campos)
 - Chaves: Chave Primária (PK) e Chave Estrangeira (FK)
