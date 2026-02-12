@@ -1,0 +1,12 @@
+# Título e descrição que aparecerão no seu site e no Google
+title: Hub de Conhecimento
+description: Plataforma de estudos e projetos de Michel França. Foco em SQL, Power BI e Análise de Dados.
+
+# Define o tema que o GitHub Pages deve usar
+theme: just-the-docs
+
+# URL base do seu site
+url: https://michelfranca.github.io
+
+# Habilita a barra de busca no topo do site
+search_enabled: true
