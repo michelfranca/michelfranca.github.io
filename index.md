@@ -4,6 +4,7 @@
 Uma plataforma de aprendizado contínuo, com guias práticos e roadmaps detalhados para dominar as ferramentas e habilidades mais importantes do mercado de dados e além.
 
 [Sobre Mim no LinkedIn](https://www.linkedin.com/in/seu-perfil )
+
 [Ver Projetos](#)
 
 ---
