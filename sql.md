@@ -18,10 +18,10 @@ Marque os itens abaixo conforme for concluindo os estudos. Cada seção de níve
 *O objetivo aqui é ganhar fluência na extração e manipulação de dados. Se não dominar isso, não sai do lugar.*
 
 ### 1. Fundamentos do Banco de Dados Relacional
-- [x] O que é um banco de dados relacional vs. NoSQL?
-- [x] Conceitos: Tabelas, Linhas (Registros), Colunas (Campos).
-- [x] Chaves: Chave Primária (PK), Chave Estrangeira (FK), Chave Única (Unique Key).
-- [x] Tipos de Dados Essenciais: `INT`, `VARCHAR`, `TEXT`, `DATE`, `TIMESTAMP`, `DECIMAL`, `FLOAT`, `BOOLEAN`.
+- [ ] O que é um banco de dados relacional vs. NoSQL?
+- [ ] Conceitos: Tabelas, Linhas (Registros), Colunas (Campos).
+- [ ] Chaves: Chave Primária (PK), Chave Estrangeira (FK), Chave Única (Unique Key).
+- [ ] Tipos de Dados Essenciais: `INT`, `VARCHAR`, `TEXT`, `DATE`, `TIMESTAMP`, `DECIMAL`, `FLOAT`, `BOOLEAN`.
 
 ### 2. Consultas e Filtros (A Linguagem Essencial)
 - [ ] Comandos Essenciais: `SELECT`, `FROM`, `WHERE`.
