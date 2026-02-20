@@ -1,6 +1,6 @@
 ---
-home
-Início
+title: Hub de Conhecimento
+description: Plataforma de estudos e projetos de Michel França.
 ---
 
 # Hub de Conhecimento de Michel França
