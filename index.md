@@ -1,65 +1,56 @@
-
-# Michel França | Especialista em Dados & Business Intelligence
-
-Uma plataforma de aprendizado contínuo, com guias práticos e roadmaps detalhados para dominar as ferramentas e habilidades mais importantes do mercado de dados e além.
-
-[Sobre Mim no LinkedIn](https://www.linkedin.com/in/michel-fran%C3%A7a-346b24309/ )
-
-[Ver Trilhas](#)
-
-[Ver Projetos](#)
-
----
-
-## Trilhas de Conhecimento
-
-Navegue pelas trilhas de estudo completas. Cada seção é um roadmap detalhado, do básico ao especialista, projetado para construir conhecimento de forma estruturada e prática.
-
-<div class="d-flex flex-wrap gutter">
-    <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <a href="{{ '/sql' | relative_url }}" class="card-link">
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">🚀 SQL</h3>
-                    <p class="card-text">Do zero à referência técnica. O guia definitivo para extrair, manipular e otimizar dados com a linguagem mais importante do mundo dos dados.</p>
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <a href="{{ '/powerbi' | relative_url }}" class="card-link">
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">📊 Power BI</h3>
-                    <p class="card-text">Construa dashboards que contam histórias e geram insights. Da conexão com dados até a governança e performance em nível sênior.</p>
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <a href="{{ '/ingles' | relative_url }}" class="card-link">
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">🌐 Inglês</h3>
-                    <p class="card-text">O roadmap completo para a fluência profissional. Da comunicação independente (B1) até a maestria de um falante nativo (C2).</p>
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <a href="{{ '/curriculo' | relative_url }}" class="card-link">
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">📄 Currículo</h3>
-                    <p class="card-text">Minha trajetória profissional, resumo de qualificações, experiência, formação acadêmica e informações para contato.</p>
-                </div>
-            </div>
-        </a>
-    </div>
+<div class="bio-container">
+  <div class="bio-image">
+    <img src="assets/profile.jpg" alt="Foto de Michel França">
+  </div>
+  <div class="bio-text">
+    <h1>Michel França</h1>
+    <h2>Especialista em Dados & Business Intelligence</h2>
+    <p>
+      Profissional apaixonado por transformar dados brutos em insights de negócio que geram valor e direcionam decisões estratégicas. Com sólida experiência em SQL e Power BI, meu foco é construir soluções de dados eficientes, desde a engenharia e modelagem até a criação de dashboards interativos.
+    </p>
+    <p>
+      Bem-vindo ao meu portfólio, um espaço onde compartilho projetos, guias de estudo e minha jornada de aprendizado contínuo no mundo dos dados.
+    </p>
+  </div>
 </div>
 
 <style>
-.card-link { text-decoration: none; color: inherit; }
-.card { transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; height: 100%; }
-.card:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+  .bio-container {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Espaço entre a foto e o texto */
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0; /* Linha sutil de separação */
+    margin-bottom: 40px;
+  }
+  .bio-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Deixa a foto redonda */
+    object-fit: cover; /* Garante que a foto não fique distorcida */
+  }
+  .bio-text h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 2.5em; /* Tamanho do nome */
+  }
+  .bio-text h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: 400; /* Fonte mais leve para o subtítulo */
+    color: #555;
+  }
+  .bio-text p {
+    font-size: 1.1em;
+    line-height: 1.6; /* Espaçamento entre as linhas do parágrafo */
+  }
+
+  /* Ajuste para telas pequenas (celulares) */
+  @media (max-width: 600px) {
+    .bio-container {
+      flex-direction: column; /* Coloca a foto em cima do texto */
+      text-align: center;
+    }
+  }
 </style>
