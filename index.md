@@ -1,5 +1,5 @@
 
-# Hub de Conhecimento de Michel França
+# Michel França | Especialista em Dados & Business Intelligence
 
 Uma plataforma de aprendizado contínuo, com guias práticos e roadmaps detalhados para dominar as ferramentas e habilidades mais importantes do mercado de dados e além.
 
