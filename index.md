@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Início
+home
+Início
 ---
 
 # Hub de Conhecimento de Michel França
