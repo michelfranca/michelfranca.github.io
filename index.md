@@ -1,17 +1,10 @@
----
-Hub de Conhecimento
----
-Plataforma de estudos e projetos de Michel França.
----
 
 # Hub de Conhecimento de Michel França
-{: .fs-9 .fw-700 }
 
 Uma plataforma de aprendizado contínuo, com guias práticos e roadmaps detalhados para dominar as ferramentas e habilidades mais importantes do mercado de dados e além.
-{: .fs-6 .fw-300 }
 
-[Sobre Mim no LinkedIn](https://www.linkedin.com/in/seu-perfil ){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Ver Projetos](#){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Sobre Mim no LinkedIn](https://www.linkedin.com/in/seu-perfil )
+[Ver Projetos](#)
 
 ---
 
