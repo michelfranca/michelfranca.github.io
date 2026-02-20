@@ -14,6 +14,8 @@
   </div>
 </div>
 
+[Sobre Mim no LinkedIn](https://www.linkedin.com/in/michel-fran%C3%A7a-346b24309/ )
+
 <style>
   .bio-container {
     display: flex;
