@@ -52,6 +52,16 @@ Navegue pelas trilhas de estudo completas. Cada seção é um roadmap detalhado,
             </div>
         </a>
     </div>
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <a href="curriculo" class="card-link">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">📄 Currículo</h3>
+                    <p class="card-text">Minha trajetória profissional, resumo de qualificações, experiência, formação acadêmica e informações para contato.</p>
+                </div>
+            </div>
+        </a>
+    </div>
 </div>
 
 <style>
