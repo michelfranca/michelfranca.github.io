@@ -16,4 +16,6 @@
 
 [Sobre Mim no LinkedIn](https://www.linkedin.com/in/michel-fran%C3%A7a-346b24309/ )
 
+[Trilhas de Estudo] ---- [Projetos Realizados]
+
 
