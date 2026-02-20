@@ -3,7 +3,7 @@
 
 Uma plataforma de aprendizado contínuo, com guias práticos e roadmaps detalhados para dominar as ferramentas e habilidades mais importantes do mercado de dados e além.
 
-[Sobre Mim no LinkedIn](https://www.linkedin.com/in/seu-perfil )
+[Sobre Mim no LinkedIn](https://www.linkedin.com/in/michel-fran%C3%A7a-346b24309/ )
 
 [Ver Trilhas](#)
 
