@@ -5,6 +5,8 @@ Uma plataforma de aprendizado contínuo, com guias práticos e roadmaps detalhad
 
 [Sobre Mim no LinkedIn](https://www.linkedin.com/in/seu-perfil )
 
+[Ver Trilhas](#)
+
 [Ver Projetos](#)
 
 ---
