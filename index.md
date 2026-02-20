@@ -16,4 +16,47 @@
 
 [Sobre Mim no LinkedIn](https://www.linkedin.com/in/michel-fran%C3%A7a-346b24309/ )
 
+<div class="button-container">
+  <a href="trilhas" class="button-link">
+    Trilhas de Conhecimento
+  </a>
+  <a href="projetos" class="button-link">
+    Portfólio de Projetos
+  </a>
+  <a href="curriculo" class="button-link">
+    Currículo
+  </a>
+  <a href="mailto:seu-email@provedor.com" class="button-link">
+    Contato
+  </a>
+</div>
+
+<style>
+  .button-container {
+    display: flex;
+    flex-direction: column; /* Coloca os botões em uma coluna */
+    gap: 15px; /* Espaço entre os botões */
+    margin-top: 40px;
+    align-items: center; /* Centraliza os botões na página */
+  }
+  .button-link {
+    display: block;
+    width: 80%; /* Largura dos botões */
+    max-width: 400px; /* Largura máxima */
+    padding: 15px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  .button-link:hover {
+    background-color: #333;
+    color: #fff;
+  }
+</style>
+
 
