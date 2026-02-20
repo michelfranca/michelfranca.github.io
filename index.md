@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: home
 title: Início
-nav_order: 1
 ---
 
 # Hub de Conhecimento de Michel França
@@ -10,10 +9,8 @@ nav_order: 1
 Uma plataforma de aprendizado contínuo, com guias práticos e roadmaps detalhados para dominar as ferramentas e habilidades mais importantes do mercado de dados e além.
 {: .fs-6 .fw-300 }
 
-[Sobre Mim no LinkedIn](https://www.linkedin.com/in/seu-perfil )
-{: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Ver Projetos](#)
-{: .btn .fs-5 .mb-4 .mb-md-0 }
+[Sobre Mim no LinkedIn](https://www.linkedin.com/in/seu-perfil ){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Ver Projetos](#){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -23,7 +20,7 @@ Navegue pelas trilhas de estudo completas. Cada seção é um roadmap detalhado,
 
 <div class="d-flex flex-wrap gutter">
     <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <a href="sql" class="card-link">
+        <a href="{{ '/sql' | relative_url }}" class="card-link">
             <div class="card">
                 <div class="card-body">
                     <h3 class="card-title">🚀 SQL</h3>
@@ -33,7 +30,7 @@ Navegue pelas trilhas de estudo completas. Cada seção é um roadmap detalhado,
         </a>
     </div>
     <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <a href="powerbi" class="card-link">
+        <a href="{{ '/powerbi' | relative_url }}" class="card-link">
             <div class="card">
                 <div class="card-body">
                     <h3 class="card-title">📊 Power BI</h3>
@@ -43,7 +40,7 @@ Navegue pelas trilhas de estudo completas. Cada seção é um roadmap detalhado,
         </a>
     </div>
     <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <a href="ingles" class="card-link">
+        <a href="{{ '/ingles' | relative_url }}" class="card-link">
             <div class="card">
                 <div class="card-body">
                     <h3 class="card-title">🌐 Inglês</h3>
@@ -53,7 +50,7 @@ Navegue pelas trilhas de estudo completas. Cada seção é um roadmap detalhado,
         </a>
     </div>
     <div class="col-12 col-md-6 col-lg-4 mb-4">
-        <a href="curriculo" class="card-link">
+        <a href="{{ '/curriculo' | relative_url }}" class="card-link">
             <div class="card">
                 <div class="card-body">
                     <h3 class="card-title">📄 Currículo</h3>
@@ -65,18 +62,9 @@ Navegue pelas trilhas de estudo completas. Cada seção é um roadmap detalhado,
 </div>
 
 <style>
-.card-link {
-    text-decoration: none;
-    color: inherit;
-}
-.card {
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    height: 100%;
-}
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
+.card-link { text-decoration: none; color: inherit; }
+.card { transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; height: 100%; }
+.card:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
 </style>
 
 ---
