@@ -6,107 +6,155 @@ has_children: false
 permalink: /powerbi
 ---
 
-# Roadmap de Estudos: Power BI - Do Zero ao Expert em Dashboards
+# Roadmap de Estudos para a Certificação Microsoft Power BI (PL-300)
 
-Este roadmap foi criado para guiar seus estudos em Power BI, desde os conceitos mais básicos de conexão com dados até as técnicas avançadas de modelagem, performance e governança exigidas em grandes corporações.
-
-O progresso é atualizado manualmente editando este arquivo no GitHub e marcando `[ ]` como `[x]`.
+Este é um guia de estudos completo e detalhado, focado nos tópicos essenciais para a aprovação na prova de certificação de Power BI da Microsoft. O conteúdo abrange desde a preparação de dados até a governança, com ênfase nos conceitos que mais reprovam candidatos.
 
 ---
 
-## 🚀 Nível Júnior: Construindo os Primeiros Dashboards
-*O objetivo é se tornar autônomo na criação de relatórios funcionais, desde a importação dos dados até a publicação.*
+## 1️⃣ Preparar os Dados (Power Query – ETL)
 
-### 1. Fundamentos e Ambiente Power BI
-- [ ] O que é Business Intelligence (BI) e o papel do Power BI?
-- [ ] Os componentes do ecossistema: Power BI Desktop, Power BI Service (Online) e Power BI Mobile.
-- [ ] Navegando pela interface do Power BI Desktop: As 3 visões (Relatório, Dados, Modelo).
+### 🔹 Conexão de Dados
+- [ ] Excel, CSV, TXT
+- [ ] Banco relacional (SQL Server, MySQL etc.)
+- [ ] SharePoint
+- [ ] Web
+- [ ] Pastas
+- [ ] Dataflows
+- [ ] Entender a diferença: DirectQuery vs. Import vs. Live Connection
+- [ ] Criar e usar Parâmetros
 
-### 2. Conexão e Tratamento de Dados (Power Query)
-- [ ] Conectando a fontes de dados: Excel, CSV, Pastas e Bancos de Dados (SQL).
-- [ ] A interface do Power Query Editor: O coração do ETL.
-- [ ] Transformações essenciais: Remover/Renomear colunas, alterar tipos de dados, filtrar linhas.
-- [ ] Adicionar colunas: Coluna Condicional e Coluna Personalizada (básico).
-- [ ] Combinar dados: Mesclar consultas (Merge - análogo aos Joins) e Anexar consultas (Append - análogo ao Union).
-- [ ] Boas práticas: Organizando as etapas aplicadas.
-
-### 3. Modelagem de Dados (Visão Modelo)
-- [ ] O que é um modelo de dados?
-- [ ] Criando e gerenciando relacionamentos entre tabelas (cardinalidade e direção do filtro).
-- [ ] O conceito de Tabela Fato vs. Tabela Dimensão (Modelo Star Schema).
-- [ ] Criando uma Tabela Calendário básica.
-
-### 4. Cálculos com DAX (Data Analysis Expressions)
-- [ ] Diferença: Colunas Calculadas vs. Medidas.
-- [ ] Criando suas primeiras Medidas: `SUM`, `AVERAGE`, `COUNT`, `DISTINCTCOUNT`.
-- [ ] A função mais importante: `CALCULATE()`.
-- [ ] Funções de Tabela Simples: `FILTER`, `ALL`.
-
-### 5. Visualização de Dados (Visão Relatório)
-- [ ] Adicionando e formatando visuais: Gráficos de Barra, Linha, Pizza e Cartões.
-- [ ] Usando Matrizes e Tabelas.
-- [ ] Filtros e Segmentação de Dados (Slicers).
-- [ ] Configurando interações entre visuais.
-- [ ] Boas práticas de design: Cores, alinhamento e simplicidade.
-
-### 6. Publicação e Compartilhamento (Power BI Service)
-- [ ] Publicando um relatório do Desktop para o Service.
-- [ ] O que são Workspaces.
-- [ ] Criando e compartilhando um Dashboard simples.
-- [ ] Atualização de dados: Configurando o Gateway de dados para atualização agendada.
+### 🔹 Transformações (Power Query M)
+- [ ] Remover / renomear colunas
+- [ ] Alterar tipo de dados
+- [ ] Mesclar consultas (Merge)
+- [ ] Acrescentar consultas (Append)
+- [ ] Criar Colunas personalizadas
+- [ ] Criar Colunas condicionais
+- [ ] Criar Colunas por exemplo
+- [ ] Agrupar dados (Group By)
+- [ ] Pivot (Dinamizar Colunas) / Unpivot (Transformar Colunas em Linhas)
+- [ ] Transpor
+- [ ] Dividir colunas
+- [ ] Extrair texto (Primeiros/Últimos/Intervalo de Caracteres)
+- [ ] Tratamento de erros
+- [ ] Detectar e remover duplicados
+- [ ] Criar coluna de índice
+- [ ] Criar tabela calendário via Linguagem M
+- [ ] Entender o conceito de Query Folding e seu impacto na performance
+- [ ] Boas práticas de performance no Power Query
 
 ---
 
-## ✈️ Nível Pleno: Dashboards Relevantes para o Negócio
-*Aqui você vai além do básico, criando modelos de dados robustos, cálculos DAX complexos e relatórios que contam uma história.*
+## 2️⃣ Modelar os Dados (Coração da Prova)
 
-### 1. Power Query Avançado
-- [ ] Parâmetros: Tornando suas queries dinâmicas.
-- [ ] Funções personalizadas em Linguagem M.
-- [ ] Técnicas de performance: Desabilitar carga, otimizar etapas.
-- [ ] Tratamento de erros e dados "sujos".
+### 🔹 Conceitos Obrigatórios
+- [ ] Modelo estrela (Star Schema)
+- [ ] Tabela fato vs. Tabela dimensão
+- [ ] Cardinalidade (1:1, 1:N, N:N)
+- [ ] Direção do filtro (Single vs. Both)
+- [ ] Relacionamento ativo vs. inativo
+- [ ] Usar a função `USERELATIONSHIP` em cálculos DAX
+- [ ] Entender o conceito de Snowflake schema
+- [ ] Criar e marcar uma Tabela de Datas corretamente
+- [ ] Conceitos de Normalização vs. Desnormalização
 
-### 2. DAX Intermediário e Avançado
-- [ ] **Contexto de Avaliação:** O conceito mais crucial em DAX (Contexto de Linha vs. Contexto de Filtro).
-- [ ] Funções Iteradoras (sufixo X): `SUMX`, `AVERAGEX`, `RANKX`.
-- [ ] **Inteligência de Tempo:** `DATESYTD`, `SAMEPERIODLASTYEAR`, `DATEADD`.
-- [ ] Funções de Tabela Avançadas: `VALUES`, `SUMMARIZE`, `CROSSJOIN`.
-- [ ] Variáveis em DAX (`VAR` ... `RETURN`) para organizar e otimizar cálculos.
-
-### 3. Modelagem de Dados Avançada
-- [ ] Relacionamentos complexos: Muitos-para-muitos (com tabela ponte).
-- [ ] Otimizando o modelo: Cardinalidade, direção do filtro e o impacto na performance.
-- [ ] Segurança em nível de linha (Row-Level Security - RLS).
-- [ ] Hierarquias e Grupos.
-
-### 4. Visualização e Storytelling
-- [ ] Bookmarks (Marcadores) para criar navegação e contar histórias.
-- [ ] Tooltips (Dicas de Ferramenta) personalizados.
-- [ ] Drill-through para navegar entre páginas de relatório.
-- [ ] Uso de visuais personalizados da AppSource.
-- [ ] Parâmetros "What-if" para simulações.
+### 🔹 Boas Práticas e Otimização
+- [ ] Evitar relacionamentos bidirecionais desnecessários
+- [ ] Criar dimensões auxiliares (e.g., para medidas)
+- [ ] Otimizar o desempenho do modelo
+- [ ] Estratégias para redução de cardinalidade
+- [ ] Entender quando usar Colunas Calculadas vs. Medidas
+- [ ] Otimização geral do modelo para performance
 
 ---
 
-## 🛰️ Nível Sênior/Especialista: Performance, Governança e Arquitetura
-*O foco muda para a otimização de grandes volumes de dados, governança, reusabilidade e a integração do Power BI na arquitetura de dados da empresa.*
+## 3️⃣ DAX (A Parte que Mais Reprova)
 
-### 1. Otimização de Performance (Performance Tuning)
-- [ ] **DAX Studio e Tabular Editor:** Ferramentas externas para analisar e otimizar seu modelo.
-- [ ] Analisando o desempenho de queries com o Performance Analyzer.
-- [ ] Otimização do modelo de dados (VertiPaq Analyzer): Reduzindo cardinalidade e tamanho do arquivo.
-- [ ] Modos de armazenamento: Import vs. DirectQuery vs. Composite. Quando usar cada um.
+### 🔹 Conceitos Base (Obrigatório Dominar)
+- [ ] Contexto de linha
+- [ ] Contexto de filtro
+- [ ] Transição de contexto (Context transition)
+- [ ] **CALCULATE:** Entender profundamente seu funcionamento
+- [ ] Funções de modificação de contexto: `ALL`, `ALLEXCEPT`, `REMOVEFILTERS`
+- [ ] Funções de tabela: `VALUES`, `DISTINCT`
+- [ ] Funções de relacionamento: `RELATED`, `RELATEDTABLE`
 
-### 2. Arquitetura e Governança no Power BI Service
-- [ ] **Fluxos de Dados (Dataflows):** Reutilizando lógicas de ETL do Power Query para múltiplos relatórios.
-- [ ] **Conjuntos de Dados Compartilhados (Shared Datasets):** Criando uma "única fonte da verdade".
-- [ ] Pipelines de Implantação (Dev/Test/Prod).
-- [ ] Endpoints XMLA para gerenciamento avançado.
-- [ ] Certificação e promoção de conteúdo.
+### 🔹 Funções Essenciais por Categoria
+- [ ] **Funções de Agregação e Iteradoras:** `SUM`, `AVERAGE`, `COUNT`, `COUNTROWS`, `DISTINCTCOUNT`, e suas versões com `X` (`SUMX`, `AVERAGEX`).
+- [ ] **Funções Lógicas:** `IF`, `SWITCH`, `AND` / `OR`, `ISBLANK`, `COALESCE`.
+- [ ] **Função de Divisão Segura:** `DIVIDE`.
+- [ ] **Inteligência de Tempo (Muito Cobrado):** `TOTALYTD`, `TOTALMTD`, `TOTALQTD`, `SAMEPERIODLASTYEAR`, `DATEADD`, `DATESYTD`, `DATESMTD`, `DATESBETWEEN`, `PARALLELPERIOD`.
+- [ ] **Funções de Ranking e Análise:** `RANKX`, `TOPN`.
+- [ ] **Funções de Tabela para Cálculos:** `FILTER`, `ADDCOLUMNS`, `SUMMARIZE`, `SUMMARIZECOLUMNS`, `GENERATE`, `CROSSJOIN`.
+- [ ] **Função `EARLIER`:** Entender o conceito, mesmo sendo menos usada hoje.
 
-### 3. Integração e Tópicos Avançados
-- [ ] Power BI com fontes de dados na nuvem (Azure Synapse, Databricks, Snowflake).
-- [ ] Incorporando relatórios do Power BI em outras aplicações (Power BI Embedded).
-- [ ] Paginated Reports para relatórios com formato de impressão.
-- [ ] Metas e Scorecards no Power BI.
-- [ ] Noções de licenciamento: Pro vs. Premium por Usuário vs. Premium por Capacidade.
+---
+
+## 4️⃣ Criar Relatórios (Visualização)
+
+### 🔹 Visuais e Interações
+- [ ] Gráfico de colunas, barras, linha, área e combinado
+- [ ] Tabela e matriz
+- [ ] Cartão e KPI
+- [ ] Segmentação de Dados (Slicer)
+- [ ] Configurar Drill-through e Drill-down
+- [ ] Criar Tooltip (Dica de Ferramenta) personalizado
+- [ ] Editar interações entre visuais
+- [ ] Sincronizar slicers entre páginas
+- [ ] Usar Botões, Bookmarks e Navegação para criar uma experiência de App
+
+### 🔹 UX e Layout
+- [ ] Criar Layout responsivo para web e mobile
+- [ ] Aplicar um Tema personalizado
+- [ ] Manter cores e fontes consistentes
+- [ ] Considerar boas práticas de Acessibilidade
+
+---
+
+## 5️⃣ Performance e Otimização
+- [ ] Usar o Performance Analyzer para identificar gargalos
+- [ ] Otimizar fórmulas DAX
+- [ ] Reduzir a cardinalidade do modelo
+- [ ] Evitar colunas desnecessárias
+- [ ] Entender o impacto de Medidas vs. Colunas Calculadas
+- [ ] Conhecer as limitações de performance do DirectQuery
+
+---
+
+## 6️⃣ Segurança
+- [ ] **RLS (Row-Level Security):**
+    - [ ] Criar funções (roles) estáticas e dinâmicas
+    - [ ] Usar a função `USERPRINCIPALNAME()` para segurança dinâmica
+    - [ ] Testar as regras de segurança como um usuário
+
+---
+
+## 7️⃣ Power BI Service (Online)
+- [ ] Publicar um relatório
+- [ ] Criar e publicar um App
+- [ ] Gerenciar Workspaces
+- [ ] Configurar a atualização agendada
+- [ ] Entender e configurar o Gateway (On-premises)
+- [ ] Criar e consumir Dataflows
+- [ ] Gerenciar compartilhamento e permissões
+- [ ] Usar Certificação e Promoção (Endorsement) de datasets
+
+---
+
+## 8️⃣ Governança e Administração
+- [ ] Usar a visão de linhagem de dados (Lineage view)
+- [ ] Fazer análise de impacto de alterações
+- [ ] Configurar Pipelines de Implantação (Deployment Pipelines)
+- [ ] Estratégias de versionamento de arquivos PBIX
+- [ ] Aplicar rótulos de sensibilidade (Sensitivity labels)
+- [ ] Classificação de dados (Data classification)
+
+---
+
+## 🔥 Nível de Exigência Real
+- [ ] **Modelagem:** Ser capaz de criar um modelo estrela do zero.
+- [ ] **DAX:** Escrever medidas de YTD, crescimento % e ranking sem copiar.
+- [ ] **Segurança:** Implementar RLS dinâmico.
+- [ ] **Publicação:** Publicar e configurar um gateway de dados.
+- [ ] **Conceitual:** Ser capaz de explicar contexto de filtro sem travar.
