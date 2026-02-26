@@ -1,4 +1,6 @@
-#         Jornada para Especialista em Dados & Business Intelligence 
+<div style="padding-left: 10%;">
+  <h1>Jornada para Especialista em Dados & Business Intelligence</h1>
+</div>
 
 <p align="center">
   <img src="https://github.com/michelfranca/michelfranca.github.io/blob/main/Banner_GitHub.png?raw=true" width="800"/>
