@@ -1,7 +1,7 @@
 # Jornada para Especialista em Dados & Business Intelligence 
 
 <p align="center">
-  <img src="https://i.imgur.com/Ar3fHhC.png" alt="Banner de Dados e BI" width="800"/>
+  <img src="https://github.com/michelfranca/michelfranca.github.io/blob/main/Banner_GitHub.png?raw=true" width="800"/>
 </p>
 
 ## Olá, eu sou Michel Oliveira França!
