@@ -1,4 +1,4 @@
-# Jornada para Especialista em Dados & Business Intelligence
+# Jornada para Especialista em Dados & Business Intelligence 
 
 <p align="center">
   <img src="https://i.imgur.com/Ar3fHhC.png" alt="Banner de Dados e BI" width="800"/>
