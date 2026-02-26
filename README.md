@@ -1,4 +1,4 @@
-<div style="padding-left: 30%;">
+<div align="center">
   <h1>Jornada para Especialista em Dados & Business Intelligence</h1>
 </div>
 
