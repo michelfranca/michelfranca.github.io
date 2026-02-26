@@ -4,7 +4,7 @@
   <img src="https://i.imgur.com/Ar3fHhC.png" alt="Banner de Dados e BI" width="800"/>
 </p>
 
-## Olá, eu sou [Seu Nome]!
+## Olá, eu sou [Michel Oliveira França]!
 
 Profissional apaixonado por transformar dados brutos em insights que geram valor e direcionam decisões estratégicas. Meu objetivo é dominar o ciclo completo dos dados, desde a engenharia e modelagem com **SQL** até a criação de dashboards interativos e análises avançadas com **Power BI** e **Python**.
 
