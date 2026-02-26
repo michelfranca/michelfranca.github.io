@@ -10,6 +10,8 @@
 
 Profissional apaixonado por transformar dados em decisões. Meu foco é construir a ponte entre a análise técnica e a estratégia de negócio, dominando desde a modelagem de dados em SQL até a criação de visualizações e dashboards interativos em Power BI que apoiam o planejamento e a geração de valor.
 
+--------
+
 Este espaço é o meu portfólio digital e diário de bordo. Aqui você encontrará:
 *   **Projetos Práticos:** Dashboards e análises que demonstram minhas habilidades.
 *   **Roadmap de Estudos:** Meu plano de aprendizado detalhado e progresso atual.
